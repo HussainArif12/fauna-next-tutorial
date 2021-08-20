@@ -1,0 +1,7 @@
+type Note {
+	title: String!
+	body: String!
+}
+type Query {
+	allNotes: [Note]
+}
